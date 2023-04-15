@@ -1,0 +1,26 @@
+[2023-04-11 04:32:50] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at C:\\xampp\\htdocs\\FAST-FIIX.COM\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:212)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\FAST-FIIX.COM\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(137): Illuminate\\Log\\LogManager->resolve(NULL, NULL)
+#1 C:\\xampp\\htdocs\\FAST-FIIX.COM\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(124): Illuminate\\Log\\LogManager->get(NULL)
+#2 C:\\xampp\\htdocs\\FAST-FIIX.COM\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(667): Illuminate\\Log\\LogManager->driver()
+#3 C:\\xampp\\htdocs\\FAST-FIIX.COM\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(274): Illuminate\\Log\\LogManager->error('RecursiveDirect...', Array)
+#4 C:\\xampp\\htdocs\\FAST-FIIX.COM\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(491): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(ValueError))
+#5 C:\\xampp\\htdocs\\FAST-FIIX.COM\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(146): Illuminate\\Foundation\\Http\\Kernel->reportException(Object(ValueError))
+#6 C:\\xampp\\htdocs\\FAST-FIIX.COM\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#7 {main}
+"} 
+[2023-04-11 04:32:50] laravel.ERROR: RecursiveDirectoryIterator::__construct(): Argument #1 ($directory) cannot be empty {"exception":"[object] (ValueError(code: 0): RecursiveDirectoryIterator::__construct(): Argument #1 ($directory) cannot be empty at C:\\xampp\\htdocs\\FAST-FIIX.COM\\vendor\\symfony\\finder\\Iterator\\RecursiveDirectoryIterator.php:43)
+[stacktrace]
+#0 C:\\xampp\\htdocs\\FAST-FIIX.COM\\vendor\\symfony\\finder\\Iterator\\RecursiveDirectoryIterator.php(43): RecursiveDirectoryIterator->__construct('', 4096)
+#1 C:\\xampp\\htdocs\\FAST-FIIX.COM\\vendor\\symfony\\finder\\Finder.php(780): Symfony\\Component\\Finder\\Iterator\\RecursiveDirectoryIterator->__construct('', 4096, false)
+#2 C:\\xampp\\htdocs\\FAST-FIIX.COM\\vendor\\symfony\\finder\\Finder.php(663): Symfony\\Component\\Finder\\Finder->searchInDirectory('')
+#3 C:\\xampp\\htdocs\\FAST-FIIX.COM\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(86): Symfony\\Component\\Finder\\Finder->getIterator()
+#4 C:\\xampp\\htdocs\\FAST-FIIX.COM\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(63): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->getConfigurationFiles(Object(Illuminate\\Foundation\\Application))
+#5 C:\\xampp\\htdocs\\FAST-FIIX.COM\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\\Foundation\\Application), Object(Illuminate\\Config\\Repository))
+#6 C:\\xampp\\htdocs\\FAST-FIIX.COM\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(261): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap(Object(Illuminate\\Foundation\\Application))
+#7 C:\\xampp\\htdocs\\FAST-FIIX.COM\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(186): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#8 C:\\xampp\\htdocs\\FAST-FIIX.COM\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(170): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#9 C:\\xampp\\htdocs\\FAST-FIIX.COM\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#10 C:\\xampp\\htdocs\\FAST-FIIX.COM\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#11 {main}
+"} 
